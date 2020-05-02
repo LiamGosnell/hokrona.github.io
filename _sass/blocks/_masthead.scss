@@ -1,0 +1,20 @@
+.tm-c-title  {
+  font-family: 'Brady Bunch Remastered';
+  font-size: 200px;
+  display: none;
+}
+
+.tm-c-masthead {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .tm-c-logo {
+    margin: 30px auto 70px;
+    display: block;
+  }
+  .tm-c-secondary {
+    margin: 0 auto 0;
+    display: block;
+  }
+}

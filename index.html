@@ -1,0 +1,27 @@
+---
+layout: home
+---
+
+<div class="tm-c-leaderboard">
+{%- for person in site.leaderboard.people -%}
+  <div class="tm-c-leaderboard--person">
+    {% if forloop.index < 4 %}
+    <div class="tm-c-leaderboard--medal place-{{ forloop.index }}">
+      {{ forloop.index }}
+    </div>
+    {% endif %}
+    <div class="tm-c-leaderboard--person--inner">
+      <div class="tm-c-leaderboard--person--image">
+        <img src="{{ person.image }}" alt="{{ person.name }}" />
+      </div>
+      <div class="tm-c-leaderboard--person--name">
+        {{ person.name }}
+      </div>
+      <div class="tm-c-leaderboard--person--score">
+        {{ person.score }}
+      </div>
+      <div class="tm-c-leaderboard--person--progress"><div class="tm-c-leaderboard--person--percentage tm-c-leaderboard--score-{{ person.score }}"></div></div>
+    </div>
+  </div>
+{%- endfor -%}
+</div>

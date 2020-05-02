@@ -1,0 +1,19 @@
+<header class="site-header" role="banner">
+
+  <div class="tm-g-grid">
+    <div class="tm-g-column-12">
+      <h1 class="tm-c-title">{{ site.title }}</h1>
+      <div class="tm-c-masthead">
+        <img class="tm-c-logo" src="../assets/img/hokrona-logo.svg" alt="{{ site.title }}"/>
+      </div>
+
+      <div class="tm-c-navigation">
+        <ul class="tm-c-navigation--pages">
+        {%- for page in site.navigation.page -%}
+          <li class="tm-c-navigation--pages-page"><a class="tm-c-navigation--pages-link js-anchor--link" href="{{ page.url }}">{{ page.copy }}</a>
+        {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

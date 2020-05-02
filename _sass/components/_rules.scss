@@ -1,0 +1,58 @@
+.tm-c-rules {
+  padding: 130px 0;
+  .tm-c-rules--title {
+    font-size: 85px;
+    font-family: 'Brady Bunch Remastered';
+    letter-spacing: 0.035em;
+    margin: 0 auto 30px;
+    display: block;
+    max-width: fit-content;
+  }
+  .tm-c-rules--paragraph {
+    font-family: Nunito;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    max-width: 665px;
+    margin: 0 auto 70px;
+  }
+
+  .tm-c-rules--rule {
+    background: linear-gradient(103.56deg, #FC4A1A 0%, #F7B733 100%);
+    border-radius: 21px;
+    color: $white;
+    max-width: 90%;
+    margin: 0 auto;
+    min-height: 440px;
+  }
+  .tm-c-rules--rule--image-container {
+    min-height: 246px;
+  }
+
+  .tm-c-rules--rule--image {
+    margin: 0 auto;
+    display: block;
+    padding: 70px 0 50px;
+  }
+
+  .tm-c-rules--rule--title {
+    font-family: 'Brady Bunch Remastered';
+    letter-spacing: 2px;
+    font-size: 47px;
+    line-height: normal;
+    margin: 0 auto 10px;
+    display: block;
+    max-width: fit-content;
+  }
+
+  .tm-c-rules--rule--description {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    color: $white;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

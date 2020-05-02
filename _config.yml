@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: HOK-RONA
+email: lgosnell@houseofkaizen.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The challenge leaderboard for all our coronavirus challenge activities
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+navigation:
+  page:
+    - url: '#rules'
+      copy: 'rules'
+
+leaderboard:
+  people:
+    - name: Alex Toplis
+      score: 0
+      image: ../assets/img/people/at-image.png
+    - name: Anjali Barot
+      score: 0
+      image: ../assets/img/people/ab-image.png
+    - name: Caity Smith
+      score: 0
+      image: ../assets/img/people/cs-image.png
+    - name: Dan Jordan
+      score: 0
+      image: ../assets/img/people/dj-image.png
+    - name: Danny Ma
+      score: 0
+      image: ../assets/img/people/dma-image.png
+    - name: Dario Cracco
+      score: 0
+      image: ../assets/img/people/dc-image.png
+    - name: David Shiell
+      score: 0
+      image: ../assets/img/people/ds-image.png
+    - name: Egle Juskaite
+      score: 0
+      image: ../assets/img/people/ej-image.png
+    - name: Joel Mounsey
+      score: 0
+      image: ../assets/img/people/jm-image.png
+    - name: Katie Bloor
+      score: 0
+      image: ../assets/img/people/kb-image.png
+    - name: Liam Gosnell
+      score: 0
+      image: ../assets/img/people/lg-image.png
+    - name: Liam Howell
+      score: 0
+      image: ../assets/img/people/lh-image.png
+    - name: Mario Kataoka
+      score: 0
+      image: ../assets/img/people/mk-image.png
+    - name: Matt Robins
+      score: 0
+      image: ../assets/img/people/mr-image.png
+    - name: Nathan VH
+      score: 0
+      image: ../assets/img/people/nvh-image.png
+    - name: Nick Gassman
+      score: 0
+      image: ../assets/img/people/ng-image.png
+    - name: Osh Rice
+      score: 0
+      image: ../assets/img/people/or-image.png
+    - name: Sara Foresti
+      score: 0
+      image: ../assets/img/people/sf-image.png
+    - name: Suzie Duncan
+      score: 0
+      image: ../assets/img/people/sd-image.png
+    - name: Tom Gale
+      score: 0
+      image: ../assets/img/people/tg-image.png
+    - name: Tom Painter
+      score: 0
+      image: ../assets/img/people/tp-image.png
+
+rules:
+  title: The rules
+  description:  >-
+    The competition will run for 30 days! The winner will be the person with the most completed challenges on the 5th June 2020.
+  copy-rules:
+    - rule: Listen Out!
+      description: Every weekday at 9am a new challenge will arrive via Slack
+      image: ../assets/img/listen-image.svg
+    - rule: Complete it!
+      description: Use your day wisely. You’ve only got til 6pm to complete the challenge that’s been set!
+      image: ../assets/img/complete-image.svg
+    - rule: Prove it!
+      description: Snap a picture of your proof and submit in Slack to win your point for the day
+      image: ../assets/img/prove-image.svg
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

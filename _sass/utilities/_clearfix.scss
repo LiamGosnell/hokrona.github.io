@@ -1,0 +1,5 @@
+// Utility: Clearfix
+
+.#{$prefix}-u-clearfix {
+  @include clearfix;
+}

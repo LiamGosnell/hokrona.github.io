@@ -1,0 +1,16 @@
+// Utility: Box size
+
+/**
+ * Tarmac assumes you're applying box-sizing: border-box;
+ * globally, because it's how box-sizing should work really.
+ *
+ * Not all codebases follow this rule, as such Tarmac
+ * this helper should apply box-sizing corectly
+ */
+
+.#{$prefix}-u-box-size {
+  &,
+  & * {
+    box-sizing: border-box !important;
+  }
+}

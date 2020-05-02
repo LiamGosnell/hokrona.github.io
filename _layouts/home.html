@@ -1,0 +1,57 @@
+{% include head.html %}
+{% include header.html %}
+
+<div class="tm-g-grid">
+  <div class="tm-g-column-12">
+    <div class="tm-c-leaderboard">
+    {%- for person in site.leaderboard.people -%}
+      <div class="tm-c-leaderboard--person">
+        {% if forloop.index < 4 %}
+        <div class="tm-c-leaderboard--medal place-{{ forloop.index }}">
+          {{ forloop.index }}
+        </div>
+        {% endif %}
+        <div class="tm-c-leaderboard--person--inner">
+          <div class="tm-c-leaderboard--person--image">
+            <img class="{% if forloop.index < 4 %}place-{{ forloop.index }}{% endif %}" src="{{ person.image }}" alt="{{ person.name }}" />
+          </div>
+          <div class="tm-c-leaderboard--person--name">
+            {{ person.name }}
+          </div>
+          <div class="tm-c-leaderboard--person--score">
+            {{ person.score }}
+          </div>
+          <div class="tm-c-leaderboard--person--progress"><div class="tm-c-leaderboard--person--percentage tm-c-leaderboard--score-{{ person.score }}"></div></div>
+        </div>
+      </div>
+    {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<div class="tm-g-grid--full--gutterless tm-u-background--white" data-attr="#rules">
+  <div class="tm-g-column-12">
+    <div class="tm-c-rules">
+      <h2 class="tm-c-rules--title"> {{ site.rules.title }}</h2>
+      <p class="tm-c-rules--paragraph">{{ site.rules.description }}</p>
+
+      <div class="tm-g-grid">
+        <div class="tm-c-rules--groupedrules">
+        {%- for rule in site.rules.copy-rules -%}
+          <div class="tm-g-column-3 {% if forloop.index < 2 %}tm-g-offset-1{% endif %}">
+            <div class="tm-c-rules--rule">
+              <div class="tm-c-rules--rule--image-container">
+                <img class="tm-c-rules--rule--image" src="{{ rule.image }}" alt="{{ rule.rule }}" />
+              </div>
+              <h3 class="tm-c-rules--rule--title">{{ rule.rule }}</h3>
+              <p class="tm-c-rules--rule--description">{{ rule.description }}</p>
+            </div>
+          </div>
+        {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

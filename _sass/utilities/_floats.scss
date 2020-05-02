@@ -1,0 +1,25 @@
+// Utility: Floats
+
+.#{$prefix}-u-float-left {
+  float: left !important;
+}
+
+.#{$prefix}-u-float-right {
+  float: right !important;
+}
+
+.#{$prefix}-u-float-none {
+  float: none !important;
+}
+
+.#{$prefix}-u-clear-left {
+  clear: left !important;
+}
+
+.#{$prefix}-u-clear-right {
+  clear: right !important;
+}
+
+.#{$prefix}-u-clear-both {
+  clear: both !important;
+}

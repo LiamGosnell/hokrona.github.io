@@ -1,0 +1,67 @@
+// Utility: Display
+
+.#{$prefix}-u-display-none {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+@each $point, $break in $tm-mq-classes {
+  .#{$prefix}-u-display-none\@#{$point} {
+    @include mq($until: $break) {
+      display: none !important;
+      visibility: hidden !important;
+    }
+  }
+}
+
+.#{$prefix}-u-display-inline {
+  display: inline !important;
+  visibility: visible !important;
+}
+
+.#{$prefix}-u-display-inline-block {
+  display: inline-block !important;
+  visibility: visible !important;
+}
+
+.#{$prefix}-u-display-block {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.#{$prefix}-u-display-table-cell {
+  display: table-cell !important;
+  visibility: visible !important;
+}
+
+.#{$prefix}-u-display-table-row {
+  display: table-row !important;
+  visibility: visible !important;
+}
+
+.#{$prefix}-u-display-flex {
+  display: flex !important;
+  visibility: visible !important;
+}
+
+/**
+ * Elements wishing to be displayed inline that would
+ * ordinarily be displayed otherwise should be wrapped in a parent
+ * element with the .#{$prefix}-u-display-inline-parent fix
+ * applied.
+ *
+ * This fix sets the font sizing for the parent element to 0
+ * removing excess whitespace between elements
+ *
+ * Eg.
+ * inline inline inline
+ * inlineinlineinline
+ */
+
+.#{$prefix}-u-display-inline-parent {
+  font-size: 0 !important;
+
+  > * {
+    font-size: 1rem;
+  }
+}
