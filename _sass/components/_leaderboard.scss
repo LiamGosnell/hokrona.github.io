@@ -66,10 +66,11 @@
       top: -8px;
     }
 
-    @media only screen and (max-width: $tm-mq-mobile) {
+    @media only screen and (max-width: $tm-mq-tablet) {
       line-height: 30px;
       top: -17px;
     }
+
   }
 
   .tm-c-leaderboard--person--image {
@@ -144,6 +145,7 @@
       margin-left: 72px;
       margin-top: -5px;
       width: calc(100% - 95px);
+      max-width: none;
     }
   }
 
