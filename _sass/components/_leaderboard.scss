@@ -131,6 +131,7 @@
     @media only screen and (max-width: $tm-mq-tablet) {
       margin-left: 72px;
       margin-top: -5px;
+      width: calc(100% - 95px);
     }
   }
 
