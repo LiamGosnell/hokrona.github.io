@@ -23,6 +23,7 @@
     margin: 0 auto 30px;
     display: block;
     max-width: fit-content;
+    text-align: center;
 
     @media only screen and (max-width: $tm-mq-tablet) {
       font-size: 55px;
@@ -82,6 +83,11 @@
     margin: 0 auto 10px;
     display: block;
     max-width: fit-content;
+    text-align: center;
+
+    @media only screen and (max-width: $tm-mq-desktop) {
+      font-size: 35px;
+    }
 
     @media only screen and (max-width: $tm-mq-tablet) {
       font-size: 35px;
@@ -92,11 +98,16 @@
     font-family: Nunito;
     font-weight: 600;
     font-size: 19px;
-    line-height: 29px;
+    line-height: 25px;
     color: $white;
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
+
+    @media only screen and (max-width: $tm-mq-desktop) {
+      font-size: 16px;
+      line-height: 21px;
+    }
 
     @media only screen and (max-width: $tm-mq-tablet) {
       font-size: 16px;
