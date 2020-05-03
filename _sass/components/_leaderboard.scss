@@ -120,14 +120,16 @@
     padding-right: 20px;
     font-size: 16px;
 
+    @media only screen and (max-width: $tm-mq-desktop) {
+      top: -8px;
+    }
+
     @media only screen and (max-width: $tm-mq-tablet) {
       float: right;
       top: 8px;
     }
 
-    @media only screen and (max-width: $tm-mq-desktop) {
-      top: -8px;
-    }
+
   }
 
   .tm-c-leaderboard--person--progress {
