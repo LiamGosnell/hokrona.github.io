@@ -2,6 +2,10 @@
   max-width: 680px;
   margin: 0 auto 140px;
 
+
+  @media only screen and (max-width: $tm-mq-tablet) {
+    margin-bottom: 40px;
+  }
   .tm-c-leaderboard--person {
     position: relative;
     .tm-c-leaderboard--person--inner {
@@ -56,6 +60,11 @@
     font-weight: 600;
     top: -8px;
     position: relative;
+
+    @media only screen and (max-width: $tm-mq-tablet) {
+      line-height: 30px;
+      top: -17px;
+    }
   }
 
   .tm-c-leaderboard--person--image {
@@ -63,6 +72,11 @@
     height: 66px;
     margin: 0 24px 0 10px;
     top: 0;
+
+    @media only screen and (max-width: $tm-mq-tablet) {
+      margin-right: 16px;
+    }
+
     img {
       border-radius: 100%;
       width: 46px;
@@ -86,6 +100,11 @@
   .tm-c-leaderboard--person--name {
     margin-right: 24px;
     min-width: 180px;
+
+    @media only screen and (max-width: $tm-mq-tablet) {
+      min-width: 25%;
+      margin: 0;
+    }
   }
 
   .tm-c-leaderboard--person--score {
@@ -95,6 +114,10 @@
     background-size: 14px;
     padding-right: 20px;
     font-size: 16px;
+    @media only screen and (max-width: $tm-mq-tablet) {
+      float: right;
+      top: 8px;
+    }
   }
 
   .tm-c-leaderboard--person--progress {
@@ -103,7 +126,14 @@
     max-width: 290px;
     background: $grey;
     border-radius: 23px;
+
+
+    @media only screen and (max-width: $tm-mq-tablet) {
+      margin-left: 72px;
+      margin-top: -5px;
+    }
   }
+
 
   .tm-c-leaderboard--person--percentage {
     background: linear-gradient(173.91deg, #FC4A1A 0%, #F7B733 100%);

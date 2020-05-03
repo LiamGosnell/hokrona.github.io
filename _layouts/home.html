@@ -30,7 +30,7 @@
 </div>
 
 <div class="tm-g-grid--full--gutterless tm-u-background--white" data-attr="#rules">
-  <div class="tm-g-column-12">
+  <div class="tm-g-column-12 tm-g-rules--reset">
     <div class="tm-c-rules">
       <h2 class="tm-c-rules--title"> {{ site.rules.title }}</h2>
       <p class="tm-c-rules--paragraph">{{ site.rules.description }}</p>
@@ -38,7 +38,7 @@
       <div class="tm-g-grid">
         <div class="tm-c-rules--groupedrules">
         {%- for rule in site.rules.copy-rules -%}
-          <div class="tm-g-column-3 {% if forloop.index < 2 %}tm-g-offset-1{% endif %}">
+          <div class="tm-g-column-3 tm-g-column-12@t {% if forloop.index < 2 %}tm-g-offset-1 tm-g-offset-0{% endif %}">
             <div class="tm-c-rules--rule">
               <div class="tm-c-rules--rule--image-container">
                 <img class="tm-c-rules--rule--image" src="{{ rule.image }}" alt="{{ rule.rule }}" />
