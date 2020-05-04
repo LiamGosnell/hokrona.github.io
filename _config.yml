@@ -38,6 +38,9 @@ leaderboard:
     - name: Caity Smith
       score: 1
       image: ../assets/img/people/cs-image.png
+    - name: Dario Cracco
+      score: 1
+      image: ../assets/img/people/dc-image.png
     - name: David Shiell
       score: 1
       image: ../assets/img/people/ds-image.png
@@ -68,9 +71,6 @@ leaderboard:
     - name: Danny Ma
       score: 0
       image: ../assets/img/people/dma-image.png
-    - name: Dario Cracco
-      score: 0
-      image: ../assets/img/people/dc-image.png
     - name: Egle Juskaite
       score: 0
       image: ../assets/img/people/ej-image.png
