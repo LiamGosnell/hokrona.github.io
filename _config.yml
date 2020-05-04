@@ -44,6 +44,9 @@ leaderboard:
     - name: Liam Gosnell
       score: 1
       image: ../assets/img/people/lg-image.png
+    - name: Mario Kataoka
+      score: 1
+      image: ../assets/img/people/mk-image.png
     - name: Nick Gassman
       score: 1
       image: ../assets/img/people/ng-image.png
@@ -71,13 +74,9 @@ leaderboard:
     - name: Katie Bloor
       score: 0
       image: ../assets/img/people/kb-image.png
-
     - name: Liam Howell
       score: 0
       image: ../assets/img/people/lh-image.png
-    - name: Mario Kataoka
-      score: 0
-      image: ../assets/img/people/mk-image.png
     - name: Matt Robins
       score: 0
       image: ../assets/img/people/mr-image.png
