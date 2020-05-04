@@ -156,9 +156,9 @@
     border-radius: 23px;
   }
 
-  @for $i from 1 through 30 {
+  @for $i from 1 through 10 {
     .tm-c-leaderboard--score-#{$i} {
-      $percent: 100% / 30;
+      $percent: 100% / 10;
       width: $percent * $i;
     }
   }
