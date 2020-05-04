@@ -32,21 +32,27 @@ navigation:
 
 leaderboard:
   people:
+    - name: Anjali Barot
+      score: 1
+      image: ../assets/img/people/ab-image.png
+    - name: Caity Smith
+      score: 1
+      image: ../assets/img/people/cs-image.png
     - name: David Shiell
       score: 1
       image: ../assets/img/people/ds-image.png
+    - name: Liam Gosnell
+      score: 1
+      image: ../assets/img/people/lg-image.png
     - name: Nick Gassman
       score: 1
       image: ../assets/img/people/ng-image.png
+    - name: Nathan VH
+      score: 1
+      image: ../assets/img/people/nvh-image.png
     - name: Alex Toplis
       score: 0
       image: ../assets/img/people/at-image.png
-    - name: Anjali Barot
-      score: 0
-      image: ../assets/img/people/ab-image.png
-    - name: Caity Smith
-      score: 0
-      image: ../assets/img/people/cs-image.png
     - name: Dan Jordan
       score: 0
       image: ../assets/img/people/dj-image.png
@@ -65,9 +71,7 @@ leaderboard:
     - name: Katie Bloor
       score: 0
       image: ../assets/img/people/kb-image.png
-    - name: Liam Gosnell
-      score: 0
-      image: ../assets/img/people/lg-image.png
+
     - name: Liam Howell
       score: 0
       image: ../assets/img/people/lh-image.png
@@ -77,9 +81,6 @@ leaderboard:
     - name: Matt Robins
       score: 0
       image: ../assets/img/people/mr-image.png
-    - name: Nathan VH
-      score: 0
-      image: ../assets/img/people/nvh-image.png
     - name: Osh Rice
       score: 0
       image: ../assets/img/people/or-image.png
