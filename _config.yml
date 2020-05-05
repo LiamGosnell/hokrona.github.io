@@ -50,30 +50,33 @@ leaderboard:
     - name: Sara Foresti
       score: 2
       image: ../assets/img/people/sf-image.png
+    - name: Alex Toplis
+      score: 1
+      image: ../assets/img/people/at-image.png
     - name: Dario Cracco
       score: 1
       image: ../assets/img/people/dc-image.png
     - name: David Shiell
       score: 1
       image: ../assets/img/people/ds-image.png
+    - name: Egle Juskaite
+      score: 1
+      image: ../assets/img/people/ej-image.png
     - name: Mario Kataoka
       score: 1
       image: ../assets/img/people/mk-image.png
+    - name: Suzie Duncan
+      score: 1
+      image: ../assets/img/people/sd-image.png
     - name: Tom Painter
       score: 1
       image: ../assets/img/people/tp-image.png
-    - name: Alex Toplis
-      score: 0
-      image: ../assets/img/people/at-image.png
     - name: Dan Jordan
       score: 0
       image: ../assets/img/people/dj-image.png
     - name: Danny Ma
       score: 0
       image: ../assets/img/people/dma-image.png
-    - name: Egle Juskaite
-      score: 0
-      image: ../assets/img/people/ej-image.png
     - name: Joel Mounsey
       score: 0
       image: ../assets/img/people/jm-image.png
@@ -89,9 +92,6 @@ leaderboard:
     - name: Osh Rice
       score: 0
       image: ../assets/img/people/or-image.png
-    - name: Suzie Duncan
-      score: 0
-      image: ../assets/img/people/sd-image.png
     - name: Tom Gale
       score: 0
       image: ../assets/img/people/tg-image.png
