@@ -41,6 +41,9 @@ leaderboard:
     - name: Liam Gosnell
       score: 2
       image: ../assets/img/people/lg-image.png
+    - name: Mario Kataoka
+      score: 2
+      image: ../assets/img/people/mk-image.png
     - name: Nathan VH
       score: 2
       image: ../assets/img/people/nvh-image.png
@@ -50,6 +53,9 @@ leaderboard:
     - name: Sara Foresti
       score: 2
       image: ../assets/img/people/sf-image.png
+    - name: Tom Painter
+      score: 2
+      image: ../assets/img/people/tp-image.png
     - name: Alex Toplis
       score: 1
       image: ../assets/img/people/at-image.png
@@ -62,15 +68,9 @@ leaderboard:
     - name: Egle Juskaite
       score: 1
       image: ../assets/img/people/ej-image.png
-    - name: Mario Kataoka
-      score: 1
-      image: ../assets/img/people/mk-image.png
     - name: Suzie Duncan
       score: 1
       image: ../assets/img/people/sd-image.png
-    - name: Tom Painter
-      score: 1
-      image: ../assets/img/people/tp-image.png
     - name: Dan Jordan
       score: 0
       image: ../assets/img/people/dj-image.png
