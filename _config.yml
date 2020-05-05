@@ -33,32 +33,32 @@ navigation:
 leaderboard:
   people:
     - name: Anjali Barot
-      score: 1
+      score: 2
       image: ../assets/img/people/ab-image.png
     - name: Caity Smith
-      score: 1
+      score: 2
       image: ../assets/img/people/cs-image.png
+    - name: Liam Gosnell
+      score: 2
+      image: ../assets/img/people/lg-image.png
+    - name: Nathan VH
+      score: 2
+      image: ../assets/img/people/nvh-image.png
+    - name: Nick Gassman
+      score: 2
+      image: ../assets/img/people/ng-image.png
+    - name: Sara Foresti
+      score: 2
+      image: ../assets/img/people/sf-image.png
     - name: Dario Cracco
       score: 1
       image: ../assets/img/people/dc-image.png
     - name: David Shiell
       score: 1
       image: ../assets/img/people/ds-image.png
-    - name: Liam Gosnell
-      score: 1
-      image: ../assets/img/people/lg-image.png
     - name: Mario Kataoka
       score: 1
       image: ../assets/img/people/mk-image.png
-    - name: Nick Gassman
-      score: 1
-      image: ../assets/img/people/ng-image.png
-    - name: Nathan VH
-      score: 1
-      image: ../assets/img/people/nvh-image.png
-    - name: Sara Foresti
-      score: 1
-      image: ../assets/img/people/sf-image.png
     - name: Tom Painter
       score: 1
       image: ../assets/img/people/tp-image.png
