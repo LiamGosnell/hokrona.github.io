@@ -32,21 +32,21 @@ navigation:
 
 leaderboard:
   people:
-    - name: Nick Gassman
-      score: 3
-      image: ../assets/img/people/ng-image.png
     - name: Anjali Barot
       score: 3
       image: ../assets/img/people/ab-image.png
+    - name: Caity Smith
+      score: 3
+      image: ../assets/img/people/cs-image.png
     - name: Liam Gosnell
       score: 3
       image: ../assets/img/people/lg-image.png
+    - name: Nick Gassman
+      score: 3
+      image: ../assets/img/people/ng-image.png
     - name: Nathan VH
       score: 3
       image: ../assets/img/people/nvh-image.png
-    - name: Caity Smith
-      score: 2
-      image: ../assets/img/people/cs-image.png
     - name: Dario Cracco
       score: 2
       image: ../assets/img/people/dc-image.png
