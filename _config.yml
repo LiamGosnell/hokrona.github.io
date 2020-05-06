@@ -56,6 +56,9 @@ leaderboard:
     - name: Sara Foresti
       score: 2
       image: ../assets/img/people/sf-image.png
+    - name: Suzie Duncan
+      score: 2
+      image: ../assets/img/people/sd-image.png
     - name: Tom Painter
       score: 2
       image: ../assets/img/people/tp-image.png
@@ -80,9 +83,6 @@ leaderboard:
     - name: Osh Rice
       score: 1
       image: ../assets/img/people/or-image.png
-    - name: Suzie Duncan
-      score: 1
-      image: ../assets/img/people/sd-image.png
     - name: Tom Gale
       score: 1
       image: ../assets/img/people/tg-image.png
