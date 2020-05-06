@@ -41,6 +41,9 @@ leaderboard:
     - name: Liam Gosnell
       score: 3
       image: ../assets/img/people/lg-image.png
+    - name: Nathan VH
+      score: 3
+      image: ../assets/img/people/nvh-image.png
     - name: Caity Smith
       score: 2
       image: ../assets/img/people/cs-image.png
@@ -50,9 +53,6 @@ leaderboard:
     - name: Mario Kataoka
       score: 2
       image: ../assets/img/people/mk-image.png
-    - name: Nathan VH
-      score: 2
-      image: ../assets/img/people/nvh-image.png
     - name: Sara Foresti
       score: 2
       image: ../assets/img/people/sf-image.png
@@ -68,6 +68,9 @@ leaderboard:
     - name: Egle Juskaite
       score: 1
       image: ../assets/img/people/ej-image.png
+    - name: Joel Mounsey
+      score: 1
+      image: ../assets/img/people/jm-image.png
     - name: Katie Bloor
       score: 1
       image: ../assets/img/people/kb-image.png
@@ -89,9 +92,6 @@ leaderboard:
     - name: Danny Ma
       score: 0
       image: ../assets/img/people/dma-image.png
-    - name: Joel Mounsey
-      score: 0
-      image: ../assets/img/people/jm-image.png
     - name: Liam Howell
       score: 0
       image: ../assets/img/people/lh-image.png
