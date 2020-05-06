@@ -32,6 +32,9 @@ navigation:
 
 leaderboard:
   people:
+    - name: Nick Gassman
+      score: 3
+      image: ../assets/img/people/ng-image.png
     - name: Anjali Barot
       score: 2
       image: ../assets/img/people/ab-image.png
@@ -47,9 +50,6 @@ leaderboard:
     - name: Nathan VH
       score: 2
       image: ../assets/img/people/nvh-image.png
-    - name: Nick Gassman
-      score: 2
-      image: ../assets/img/people/ng-image.png
     - name: Sara Foresti
       score: 2
       image: ../assets/img/people/sf-image.png
@@ -68,6 +68,9 @@ leaderboard:
     - name: Egle Juskaite
       score: 1
       image: ../assets/img/people/ej-image.png
+    - name: Osh Rice
+      score: 1
+      image: ../assets/img/people/or-image.png
     - name: Suzie Duncan
       score: 1
       image: ../assets/img/people/sd-image.png
@@ -89,9 +92,6 @@ leaderboard:
     - name: Matt Robins
       score: 0
       image: ../assets/img/people/mr-image.png
-    - name: Osh Rice
-      score: 0
-      image: ../assets/img/people/or-image.png
     - name: Tom Gale
       score: 0
       image: ../assets/img/people/tg-image.png
