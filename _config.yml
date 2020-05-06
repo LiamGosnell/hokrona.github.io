@@ -68,6 +68,9 @@ leaderboard:
     - name: Egle Juskaite
       score: 1
       image: ../assets/img/people/ej-image.png
+    - name: Katie Bloor
+      score: 1
+      image: ../assets/img/people/kb-image.png
     - name: Osh Rice
       score: 1
       image: ../assets/img/people/or-image.png
@@ -83,9 +86,6 @@ leaderboard:
     - name: Joel Mounsey
       score: 0
       image: ../assets/img/people/jm-image.png
-    - name: Katie Bloor
-      score: 0
-      image: ../assets/img/people/kb-image.png
     - name: Liam Howell
       score: 0
       image: ../assets/img/people/lh-image.png
