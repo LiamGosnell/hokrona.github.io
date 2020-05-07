@@ -33,32 +33,32 @@ navigation:
 leaderboard:
   people:
     - name: Anjali Barot
-      score: 3
+      score: 4
       image: ../assets/img/people/ab-image.png
     - name: Caity Smith
-      score: 3
+      score: 4
       image: ../assets/img/people/cs-image.png
     - name: Liam Gosnell
-      score: 3
+      score: 4
       image: ../assets/img/people/lg-image.png
+    - name: Nick Gassman
+      score: 4
+      image: ../assets/img/people/ng-image.png
+    - name: Nathan VH
+      score: 4
+      image: ../assets/img/people/nvh-image.png
+    - name: Sara Foresti
+      score: 4
+      image: ../assets/img/people/sf-image.png
     - name: Mario Kataoka
       score: 3
       image: ../assets/img/people/mk-image.png
-    - name: Nick Gassman
+    - name: Suzie Duncan
       score: 3
-      image: ../assets/img/people/ng-image.png
-    - name: Nathan VH
-      score: 3
-      image: ../assets/img/people/nvh-image.png
-    - name: Sara Foresti
-      score: 3
-      image: ../assets/img/people/sf-image.png
+      image: ../assets/img/people/sd-image.png
     - name: Dario Cracco
       score: 2
       image: ../assets/img/people/dc-image.png
-    - name: Suzie Duncan
-      score: 2
-      image: ../assets/img/people/sd-image.png
     - name: Tom Painter
       score: 2
       image: ../assets/img/people/tp-image.png
