@@ -33,65 +33,65 @@ navigation:
 leaderboard:
   people:
     - name: Anjali Barot
-      score: 4
+      score: 5
       image: ../assets/img/people/ab-image.png
     - name: Caity Smith
-      score: 4
+      score: 5
       image: ../assets/img/people/cs-image.png
     - name: Liam Gosnell
-      score: 4
+      score: 5
       image: ../assets/img/people/lg-image.png
-    - name: Nick Gassman
-      score: 4
-      image: ../assets/img/people/ng-image.png
     - name: Nathan VH
-      score: 4
+      score: 5
       image: ../assets/img/people/nvh-image.png
+    - name: Nick Gassman
+      score: 5
+      image: ../assets/img/people/ng-image.png
     - name: Sara Foresti
-      score: 4
+      score: 5
       image: ../assets/img/people/sf-image.png
     - name: Mario Kataoka
-      score: 3
+      score: 4
       image: ../assets/img/people/mk-image.png
     - name: Suzie Duncan
-      score: 3
+      score: 4
       image: ../assets/img/people/sd-image.png
+    - name: Egle Juskaite
+      score: 2
+      image: ../assets/img/people/ej-image.png
     - name: Dario Cracco
       score: 2
       image: ../assets/img/people/dc-image.png
+    - name: Katie Bloor
+      score: 2
+      image: ../assets/img/people/kb-image.png
+    - name: Matt Robins
+      score: 2
+      image: ../assets/img/people/mr-image.png
+    - name: Osh Rice
+      score: 2
+      image: ../assets/img/people/or-image.png
+    - name: Tom Gale
+      score: 2
+      image: ../assets/img/people/tg-image.png
     - name: Tom Painter
       score: 2
       image: ../assets/img/people/tp-image.png
     - name: Alex Toplis
       score: 1
       image: ../assets/img/people/at-image.png
+    - name: Danny Ma
+      score: 1
+      image: ../assets/img/people/dma-image.png
     - name: David Shiell
       score: 1
       image: ../assets/img/people/ds-image.png
-    - name: Egle Juskaite
-      score: 1
-      image: ../assets/img/people/ej-image.png
     - name: Joel Mounsey
       score: 1
       image: ../assets/img/people/jm-image.png
-    - name: Katie Bloor
-      score: 1
-      image: ../assets/img/people/kb-image.png
-    - name: Matt Robins
-      score: 1
-      image: ../assets/img/people/mr-image.png
-    - name: Osh Rice
-      score: 1
-      image: ../assets/img/people/or-image.png
-    - name: Tom Gale
-      score: 1
-      image: ../assets/img/people/tg-image.png
     - name: Dan Jordan
       score: 0
       image: ../assets/img/people/dj-image.png
-    - name: Danny Ma
-      score: 0
-      image: ../assets/img/people/dma-image.png
     - name: Liam Howell
       score: 0
       image: ../assets/img/people/lh-image.png
