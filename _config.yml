@@ -56,12 +56,12 @@ leaderboard:
     - name: Suzie Duncan
       score: 4
       image: ../assets/img/people/sd-image.png
+    - name: Dario Cracco
+      score: 3
+      image: ../assets/img/people/dc-image.png
     - name: Egle Juskaite
       score: 3
       image: ../assets/img/people/ej-image.png
-    - name: Dario Cracco
-      score: 2
-      image: ../assets/img/people/dc-image.png
     - name: David Shiell
       score: 2
       image: ../assets/img/people/ds-image.png
