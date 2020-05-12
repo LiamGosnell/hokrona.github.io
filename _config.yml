@@ -35,6 +35,9 @@ leaderboard:
     - name: Anjali Barot
       score: 6
       image: ../assets/img/people/ab-image.png
+    - name: Caity Smith
+      score: 6
+      image: ../assets/img/people/cs-image.png
     - name: Nick Gassman
       score: 6
       image: ../assets/img/people/ng-image.png
@@ -44,9 +47,6 @@ leaderboard:
     - name: Sara Foresti
       score: 6
       image: ../assets/img/people/sf-image.png
-    - name: Caity Smith
-      score: 5
-      image: ../assets/img/people/cs-image.png
     - name: Mario Kataoka
       score: 5
       image: ../assets/img/people/mk-image.png
