@@ -33,59 +33,59 @@ navigation:
 leaderboard:
   people:
     - name: Anjali Barot
-      score: 6
+      score: 8
       image: ../assets/img/people/ab-image.png
     - name: Caity Smith
-      score: 6
+      score: 8
       image: ../assets/img/people/cs-image.png
     - name: Nick Gassman
-      score: 6
+      score: 8
       image: ../assets/img/people/ng-image.png
-    - name: Liam Gosnell
-      score: 6
-      image: ../assets/img/people/lg-image.png
     - name: Sara Foresti
-      score: 6
+      score: 8
       image: ../assets/img/people/sf-image.png
+    - name: Liam Gosnell
+      score: 7
+      image: ../assets/img/people/lg-image.png
     - name: Mario Kataoka
-      score: 5
+      score: 7
       image: ../assets/img/people/mk-image.png
     - name: Nathan VH
-      score: 5
+      score: 7
       image: ../assets/img/people/nvh-image.png
     - name: Suzie Duncan
-      score: 4
+      score: 6
       image: ../assets/img/people/sd-image.png
     - name: Dario Cracco
-      score: 3
+      score: 4
       image: ../assets/img/people/dc-image.png
     - name: Egle Juskaite
-      score: 3
+      score: 4
       image: ../assets/img/people/ej-image.png
+    - name: David Shiell
+      score: 3
+      image: ../assets/img/people/ds-image.png
+    - name: Joel Mounsey
+      score: 3
+      image: ../assets/img/people/jm-image.png
+    - name: Katie Bloor
+      score: 3
+      image: ../assets/img/people/kb-image.png
+    - name: Matt Robins
+      score: 3
+      image: ../assets/img/people/mr-image.png
     - name: Tom Gale
       score: 3
       image: ../assets/img/people/tg-image.png
+    - name: Tom Painter
+      score: 3
+      image: ../assets/img/people/tp-image.png
     - name: Alex Toplis
       score: 2
       image: ../assets/img/people/at-image.png
-    - name: David Shiell
-      score: 2
-      image: ../assets/img/people/ds-image.png
-    - name: Joel Mounsey
-      score: 2
-      image: ../assets/img/people/jm-image.png
-    - name: Katie Bloor
-      score: 2
-      image: ../assets/img/people/kb-image.png
-    - name: Matt Robins
-      score: 2
-      image: ../assets/img/people/mr-image.png
     - name: Osh Rice
       score: 2
       image: ../assets/img/people/or-image.png
-    - name: Tom Painter
-      score: 2
-      image: ../assets/img/people/tp-image.png
     - name: Danny Ma
       score: 1
       image: ../assets/img/people/dma-image.png
