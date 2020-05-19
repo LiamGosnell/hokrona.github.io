@@ -32,24 +32,27 @@ navigation:
 
 leaderboard:
   people:
+    - name: Caity Smith
+      score: 10
+      image: ../assets/img/people/cs-image.png
+    - name: Nick Gassman
+      score: 10
+      image: ../assets/img/people/ng-image.png
+    - name: Sara Foresti
+      score: 10
+      image: ../assets/img/people/sf-image.png
     - name: Anjali Barot
       score: 9
       image: ../assets/img/people/ab-image.png
-    - name: Caity Smith
-      score: 9
-      image: ../assets/img/people/cs-image.png
-    - name: Nick Gassman
-      score: 9
-      image: ../assets/img/people/ng-image.png
-    - name: Sara Foresti
-      score: 9
-      image: ../assets/img/people/sf-image.png
     - name: Mario Kataoka
       score: 8
       image: ../assets/img/people/mk-image.png
     - name: Nathan VH
       score: 8
       image: ../assets/img/people/nvh-image.png
+    - name: Egle Juskaite
+      score: 7
+      image: ../assets/img/people/ej-image.png
     - name: Liam Gosnell
       score: 7
       image: ../assets/img/people/lg-image.png
@@ -59,30 +62,27 @@ leaderboard:
     - name: Dario Cracco
       score: 5
       image: ../assets/img/people/dc-image.png
-    - name: Egle Juskaite
+    - name: Joel Mounsey
       score: 5
-      image: ../assets/img/people/ej-image.png
+      image: ../assets/img/people/jm-image.png
     - name: David Shiell
       score: 4
       image: ../assets/img/people/ds-image.png
-    - name: Joel Mounsey
-      score: 4
-      image: ../assets/img/people/jm-image.png
     - name: Katie Bloor
       score: 4
       image: ../assets/img/people/kb-image.png
+    - name: Matt Robins
+      score: 4
+      image: ../assets/img/people/mr-image.png
+    - name: Osh Rice
+      score: 4
+      image: ../assets/img/people/or-image.png
     - name: Tom Painter
       score: 4
       image: ../assets/img/people/tp-image.png
     - name: Alex Toplis
       score: 3
       image: ../assets/img/people/at-image.png
-    - name: Matt Robins
-      score: 3
-      image: ../assets/img/people/mr-image.png
-    - name: Osh Rice
-      score: 3
-      image: ../assets/img/people/or-image.png
     - name: Tom Gale
       score: 3
       image: ../assets/img/people/tg-image.png
