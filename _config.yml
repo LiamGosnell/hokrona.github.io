@@ -33,7 +33,7 @@ navigation:
 leaderboard:
   people:
     - name: Caity Smith
-      score: 10
+      score: 11
       image: ../assets/img/people/cs-image.png
     - name: Nick Gassman
       score: 10
